@@ -1,0 +1,32 @@
+body{
+  background-color:#000000;
+  margin-top: 0px;
+}
+
+.main{
+  width:640px;
+  margin-right:auto;
+  margin-left:auto;
+  background-color:#FFF;
+}
+
+.main_pic{
+  margin-top: 0px;
+}
+
+.nav{
+  /*黒丸とか消す*/
+  list-style: none;
+}
+.nav_button{
+  width: 140px;
+  text-align: center;
+  background-color: #c00;
+  /*メニューボタンを横並びにする*/ 
+  display: inline-block
+}
+/*nav_button内にあるアンカー*/
+.nav_button a{
+  text-decoration: none;
+  color: #fff;
+}
